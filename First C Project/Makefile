@@ -1,3 +1,4 @@
+#First Makefile ever, don't blame me
 export PATH := bin:$(PATH)
 BIN=/usr/bin/
 
