@@ -3,9 +3,9 @@ export PATH := bin:$(PATH)
 BIN=/usr/bin/
 
 helloworld: main.o
-	gcc -I ../ -o helloworld src/main.o
+	gcc -o helloworld src/main.o
 main.o: src/main.c
-	gcc -I /src /headers -c src/main.c -o src/main.o
+	gcc -c src/main.c -o src/main.o
 #hello.o: src/hello.c
 #	gcc -c src/hello.c -o src/hello.o
 clean:
