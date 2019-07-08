@@ -2,12 +2,12 @@
 export PATH := bin:$(PATH)
 BIN=/usr/bin/
 
-helloworld: src/main.o src/hello.o
-	gcc -o helloworld src/main.o src/hello.o
+helloworld: main.o
+	gcc -I ../ -o helloworld src/main.o
 main.o: src/main.c
-	gcc -c src/main.c -o src/main.o
-hello.o: src/hello.c
-	gcc -c src/hello.c -o src/hello.o
+	gcc -I /src /headers -c src/main.c -o src/main.o
+#hello.o: src/hello.c
+#	gcc -c src/hello.c -o src/hello.o
 clean:
 	rm -f src/*.o helloworld
 test:
