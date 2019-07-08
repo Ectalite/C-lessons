@@ -1,7 +1,7 @@
 #include <stdio.h>
-#include "header/hello.h"
+#include "hello.c"
 /*We always have to start somehere...*/
-//OwO I also saw that type of comment, interesting !
+//OwO I also saw that type of comment, interesting void hello(void);
 int main() {
 	hello();
 	printf("Glad to be here !\n");

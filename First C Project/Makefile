@@ -13,6 +13,6 @@ clean:
 test:
 	@echo $$PATH
 install:
-	cp main /usr/bin/
+	cp helloworld /usr/bin/
 remove:
 	rm /usr/bin/helloworld
