@@ -9,11 +9,11 @@
                 "_DEBUG",
                 "UNICODE"
             ],
-            "compilerPath": "C:/Users/HUEBEXA1/Documents/Msys/mingw64/bin/gcc.exe",
-            "intelliSenseMode": "gcc-x64",
+            "intelliSenseMode": "msvc-x64",
             "browse": {
                 "path": [
-                    "${workspaceFolder}"
+                    "${workspaceFolder}",
+                    "C:\\MinGW\\lib\\gcc\\mingw32\\8.2.0\\include\\c++"
                 ],
             "limitSymbolsToIncludedHeaders": true,
             "databaseFilename": ""
