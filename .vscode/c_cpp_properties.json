@@ -15,9 +15,10 @@
                     "${workspaceFolder}",
                     "C:\\MinGW\\lib\\gcc\\mingw32\\8.2.0\\include\\c++"
                 ],
-            "limitSymbolsToIncludedHeaders": true,
-            "databaseFilename": ""
-            }
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            },
+            "configurationProvider": "vector-of-bool.cmake-tools"
         }
     ],
     "version": 4
